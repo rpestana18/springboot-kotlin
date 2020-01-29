@@ -5,6 +5,6 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 
 @SpringBootApplication
 @EnableConfigurationProperties(BlogProperties::class)
-class BlogApplication {
+open class BlogApplication {
     // ...
 }
